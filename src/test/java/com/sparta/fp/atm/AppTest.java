@@ -30,8 +30,7 @@ public class AppTest
         Assertions.assertEquals(expectedNoteOf20, atm.getNoteOf20());
         Assertions.assertEquals(expectedNoteOf10, atm.getNoteOf10());
     }
-
-         @Test
+    @Test
     public void testWithdrawalWithSufficientNotes_Withdraw80() {
         ATM atm = new ATM();
         int initialNoteOf50 = atm.getNoteOf50();
